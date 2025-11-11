@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.content {
+  margin-top: 160px;
+  margin-bottom: 80px;
+}
+
+.sinopsis h1 {
+  color: #ff6a3c;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+}
+
+.sinopsis p {
+  text-align: justify;
+}
+
+.icon {
+  margin-right: 10px;
+  background-color: #fff;
+  color: #ff6a3c;
+  border: #ff6a3c 1px solid;
+}
+
+.tombol {
+  display: inline-block;
+  padding: 20px 42px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ff6a3c;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.tombol:hover {
+  background-color: #fff;
+  color: #ff6a3c;
+  border: #ff6a3c 1px solid;
+}
+
+footer {
+  background-color: #BDBDBD
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    border-top: #ff6a3c 1px solid;
+}
+footer p {
+  color: #ff6a3c;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive */
+
+/* Mobile */
+/* Potrait */
+@media (max-width: 575.98px) {
+  .sinopsis {
+    margin-top: 30px;
+  }
+
+  .sinopsis h1 {
+    font-size: 36px;
+  }
+
+  .tombol {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+
+  footer {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  footer img {
+    width: 143px;
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .sinopsis {
+    margin-top: 30px;
+  }
+
+  .sinopsis h1 {
+    font-size: 42px;
+  }
+
+  .tombol {
+    margin-top: 30px;
+    padding: 18px 36px;
+    font-size: 20px;
+  }
+}
