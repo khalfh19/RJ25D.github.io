@@ -5,16 +5,16 @@ body {
   overflow-x: hidden;
 }
 
-p{
+p {
   text-align: justify;
   line-height: 30px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-nav{
+nav {
   background-color: white;
   position: fixed;
   top: 0;
@@ -23,8 +23,6 @@ nav{
 nav img {
   width: 100px;
 }
-
-
 
 .content {
   margin-top: 80px;
@@ -72,19 +70,19 @@ nav img {
 }
 
 footer {
-  background-color: #BDBDBD
+  background-color: #bdbdbd;
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
-    border-top: #ff6a3c 1px solid;
+  border-top: #ff6a3c 1px solid;
 }
 
-footer a{
+footer a {
   color: #ff6a3c;
 }
 
-footer a:hover{
+footer a:hover {
   color: #d83200;
 }
 
@@ -95,19 +93,19 @@ footer p {
 }
 
 /* About Tab */
-.about{
+.about {
   margin-top: 60px;
   margin-bottom: 80px;
 }
 
-.about h1{
+.about h1 {
   color: #ff6a3c;
   font-weight: 500;
   margin-bottom: 60px;
   letter-spacing: 20px;
 }
 
-.carousel img{
+.carousel img {
   border-radius: 12px;
   width: 100%;
 }
@@ -117,15 +115,14 @@ footer p {
 /* Mobile */
 /* Potrait */
 @media (max-width: 575.98px) {
+  .content {
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
 
-.content {
-  margin-top: 50px;
-  margin-bottom: 80px;
-}
-
-.content img{
-  margin-left: 0;
-}
+  .content img {
+    margin-left: 0;
+  }
 
   .sinopsis {
     margin-top: 30px;
@@ -141,18 +138,18 @@ footer p {
   }
 
   .about {
-  margin-top: 30px;
-  margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
-  .carousel img{
-  border-radius: 12px;
-}
+  .carousel img {
+    border-radius: 12px;
+  }
 
-  .about p{
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
+  .about p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
 
   footer {
     height: auto;
@@ -166,16 +163,15 @@ footer p {
 }
 
 @media (max-width: 767.98px) {
-
   .content {
-  margin-top: 50px;
-  margin-bottom: 80px;
-}
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
 
-.content img{
-  width: 100%;
-  border-radius: 12px;
-}
+  .content img {
+    width: 100%;
+    border-radius: 12px;
+  }
 
   .sinopsis {
     margin-top: 30px;
@@ -191,8 +187,8 @@ footer p {
     font-size: 20px;
   }
 
-  .about p{
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
+  .about p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
 }
