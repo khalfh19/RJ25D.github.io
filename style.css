@@ -105,7 +105,6 @@ footer p {
   font-weight: 500;
   margin-bottom: 60px;
   letter-spacing: 20px;
-  font-size: 96px;
 }
 
 .carousel img{
@@ -148,21 +147,11 @@ footer p {
 
   .carousel img{
   border-radius: 12px;
-  width: 95%;
-}
-
-  .about h1{
-  color: #ff6a3c;
-  font-weight: 500;
-  margin-bottom: 20px;
-  letter-spacing: 20px;
-  font-size: 80px;
 }
 
   .about p{
   margin-top: 30px;
   margin-bottom: 40px;
-  width: 95%;
 }
 
   footer {
